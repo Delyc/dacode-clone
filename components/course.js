@@ -110,19 +110,19 @@ function Course() {
               In three simple modules, learn:
             </p>
             <div className="flex flex-col  items-center gap-2 xl:flex xl:flex-row xl:gap-3 ">
-              <Image className="w-12" src={first} alt="icone" />
+              <Image className="w-8" src={first} alt="icone" />
               <p className="text-text-gray text-4xl text-center xl:text-[18px] module">
                 Essential NEAR concepts
               </p>
             </div>
             <div className="flex flex-col items-center gap-2 xl:flex xl:flex-row xl:gap-3 xl:items-center">
-              <Image className="w-12" src={second} alt="icone" />
+              <Image className="w-8" src={second} alt="icone" />
               <p className="text-text-gray text-4xl text-center xl:text-[18px]">
                 How to write smart contracts on NEAR
               </p>
             </div>
             <div className="flex flex-col items-center gap-2 xl:flex xl:flex-row xl:gap-3 xl:items-center">
-              <Image className="w-12" src={third} alt="icone" />
+              <Image className="w-8" src={third} alt="icone" />
               <p className="text-text-gray text-4xl text-center xl:text-[18px] module leading-[50px]">
                 How to build dapps on the NEAR blockchain
               </p>

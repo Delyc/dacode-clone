@@ -10,13 +10,15 @@ function Header() {
       <nav className="hidden fixed bg-white min-w-[82%] xl:flex xl:justify-between xl:py-10 xl:items-center z-50 ">
         <div className="xl:grid xl:grid-cols-2 xl:divide-x ">
           <div className=" xl:flex xl:gap-3 xl:items-center ">
-            <Image src={circle} alt="company logo"/>
-            <h3 className="xl:font-bold xl:text-2xl">Dacade</h3>
+           <Link className='xl:flex xl:gap-3 xl:items-center ' href="dacade"> <Image src={circle} alt="company logo"/>     <h3 className="xl:font-bold xl:text-2xl">Dacade</h3></Link>
+        
           </div>
 
           <div className="xl:flex xl:justify-center xl:px-4 ">
             {" "}
-            <Image src={complogo}  alt="logo" className="w-32 h-12" />
+
+            <Link href="near"><Image src={complogo}  alt="logo" className="w-32 h-12" /></Link>
+            
           </div>
         </div>
         <div className="xl:flex xl:items-center xl:gap-10">
