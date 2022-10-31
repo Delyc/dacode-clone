@@ -1,4 +1,4 @@
-import logo from "../public/images/logo.png";
+import complogo from "../public/images/complogo.png";
 import Link from "next/link";
 import Image from 'next/image'
 function Footer() {
@@ -13,7 +13,7 @@ function Footer() {
         <div className="hidden xl:grid grid-cols-2 divide-x">
           <div className=" xl:flex xl:justify-center   ">
             {" "}
-            <Image src={logo} alt="logo" />
+            <Image src={complogo} alt="logo" />
           </div>
           <div className="flex gap-6 items-center justify-center pl-4">
             <svg
@@ -23,8 +23,8 @@ function Footer() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M28.727 3.219a11.395 11.395 0 0 1-3.276.899A5.73 5.73 0 0 0 27.959.963a11.505 11.505 0 0 1-3.626 1.385A5.69 5.69 0 0 0 20.168.545a5.707 5.707 0 0 0-5.56 7.006 16.201 16.201 0 0 1-11.76-5.963 5.663 5.663 0 0 0-.772 2.869 5.704 5.704 0 0 0 2.538 4.749 5.707 5.707 0 0 1-2.585-.716v.07a5.712 5.712 0 0 0 4.577 5.596c-.478.13-.983.2-1.504.2a5.48 5.48 0 0 1-1.074-.106 5.71 5.71 0 0 0 5.33 3.964 11.45 11.45 0 0 1-7.088 2.439c-.46 0-.914-.028-1.36-.079a16.13 16.13 0 0 0 8.746 2.568c10.498 0 16.236-8.695 16.236-16.236l-.019-.739a11.395 11.395 0 0 0 2.854-2.948Z"
                 fill="#3F4246"
               ></path>
@@ -58,8 +58,8 @@ function Footer() {
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
+                fillRule="evenodd"
+                clipRule="evenodd"
                 d="M9.452 27.09V15.15h4.085l.613-4.656H9.452V7.522c0-1.347.38-2.266 2.352-2.266h2.511V1.09c-.434-.055-1.925-.182-3.66-.182-3.623 0-6.103 2.17-6.103 6.152v3.433H.454v4.655h4.098v11.942h4.9Z"
                 fill="#3F4246"
               ></path>
@@ -111,8 +111,8 @@ function Footer() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M28.727 3.219a11.395 11.395 0 0 1-3.276.899A5.73 5.73 0 0 0 27.959.963a11.505 11.505 0 0 1-3.626 1.385A5.69 5.69 0 0 0 20.168.545a5.707 5.707 0 0 0-5.56 7.006 16.201 16.201 0 0 1-11.76-5.963 5.663 5.663 0 0 0-.772 2.869 5.704 5.704 0 0 0 2.538 4.749 5.707 5.707 0 0 1-2.585-.716v.07a5.712 5.712 0 0 0 4.577 5.596c-.478.13-.983.2-1.504.2a5.48 5.48 0 0 1-1.074-.106 5.71 5.71 0 0 0 5.33 3.964 11.45 11.45 0 0 1-7.088 2.439c-.46 0-.914-.028-1.36-.079a16.13 16.13 0 0 0 8.746 2.568c10.498 0 16.236-8.695 16.236-16.236l-.019-.739a11.395 11.395 0 0 0 2.854-2.948Z"
               fill="#3F4246"
               className="w-20 h-20"
@@ -149,8 +149,8 @@ function Footer() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
+              fillRule="evenodd"
+              clipRule="evenodd"
               d="M9.452 27.09V15.15h4.085l.613-4.656H9.452V7.522c0-1.347.38-2.266 2.352-2.266h2.511V1.09c-.434-.055-1.925-.182-3.66-.182-3.623 0-6.103 2.17-6.103 6.152v3.433H.454v4.655h4.098v11.942h4.9Z"
               fill="#3F4246"
             ></path>
