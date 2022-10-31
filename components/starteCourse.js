@@ -4,7 +4,7 @@ import nlogo from '../public/images/nlogo.png'
 function StartCourse(){
     return (
         <>
-        <section className='flex flex-col-reverse items-center xl:flex xl:flex-row xl:justify-between overflow-y-hidden  mt-20 relative'>
+        <section className='flex flex-col-reverse items-center xl:flex xl:flex-row xl:justify-between overflow-y-hidden  mt-20 relative xl:px-32'>
         <div className='absolute md:block hidden bg-green-400/75 blur-2xl opacity-10 h-[400px] w-[700px] rounded-full  -z-20  bottom-0 -mb-32'></div>
             <div className=' flex flex-col items-center gap-5 xl:items-start'>
             <h4 className='font-medium module text-5xl xl:text-[36px] text-black-secondary'>NEAR Development 101</h4>

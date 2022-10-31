@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head> */}
 
-      <section className='container w-[98%] md:w-[98%] flex flex-col   xl:w-5/6 '>
+      <section className='container  flex flex-col   '>
 
       <Header />
       <HeroSection />

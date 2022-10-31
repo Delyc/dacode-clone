@@ -4,10 +4,20 @@ import logomobile from '../public/images/logomobile.png'
 import circle from "../public/images/circle.png";
 import Link from "next/link";
 import Image from 'next/image'
+import Modal from './modal';
+import { useState } from 'react';
 function Header() {
+
+  const [isModalOpened, setIsModalOpened] = useState(false)
+
+  const onOpenModal = () => setIsModalOpened(true)
+  const onCloseModal = () => setIsModalOpened(false)
+
   return (
     <>
-      <nav className="hidden fixed bg-white min-w-[82%] xl:flex xl:justify-between xl:py-10 xl:items-center z-50 ">
+    <Modal isModalOpened={isModalOpened} onCloseModal={onCloseModal}/>
+      <nav className="hidden fixed bg-white min-w-[100%] xl:flex xl:justify-between xl:py-10 xl:items-center z-50 xl:px-20">
+        
         <div className="xl:grid xl:grid-cols-2 xl:divide-x ">
           <div className=" xl:flex xl:gap-3 xl:items-center ">
            <Link className='xl:flex xl:gap-3 xl:items-center ' href="dacade"> <Image src={circle} alt="company logo"/>     <h3 className="xl:font-bold xl:text-2xl">Dacade</h3></Link>
@@ -22,17 +32,18 @@ function Header() {
           </div>
         </div>
         <div className="xl:flex xl:items-center xl:gap-10">
-          <Link href="courses" className="xl:text-xl">
+          <button href="courses" className="xl:text-xl" onClick={onOpenModal}>
             Start The Course
-          </Link>
+          </button>
           <button className="xl:bg-black-primary xl:text-white xl:font-medium xl:py-3 xl:px-5 xl:rounded-full xl:text-xl">
             {" "}
             <Link href="wallet">Create wallet</Link>{" "}
           </button>
         </div>
+       
       </nav>
 
-      <nav className="xl:hidden fixed bg-white flex justify-between items-center  w-full  px-10 py-10">
+      <nav className="xl:hidden fixed bg-white flex justify-between items-center  w-full z-50 px-10 py-10">
         <div className="  gap-2 grid grid-cols-2 divide-x  ">
           <div className="w-12">
             <svg
