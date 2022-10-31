@@ -20,7 +20,7 @@ as well as starting this course.</p>
             </div>
 
             <div className='flex w-full justify-center xl:justify-end'>
-                <Image className="w-5/6 xl:w-5/6 h-5/6" src={lightn} />
+                <Image className="w-5/6 xl:w-5/6 h-5/6" src={lightn} alt="N logo"/>
             </div>
           </div>
         </section>

@@ -23,9 +23,9 @@ function Course(){
         <div className='flex flex-col w-full items-center xl:w-1/2 gap-10 xl:items-start xl:gap-4'>
             <h4 className='font-medium text-black-primary text-5xl mt-10 xl:text-4xl'>Complete the course</h4>
             <p className='text-text-gray text-center text-4xl mt-3 xl:text-2xl'>In three simple modules, learn:</p>
-            <div className='flex flex-col  items-center gap-2 xl:flex xl:flex-row xl:gap-3 '><Image className='w-12' src={first} /><p className='text-text-gray text-4xl text-center xl:text-[18px] module'>Essential NEAR concepts</p></div>
-            <div className='flex flex-col items-center gap-2 xl:flex xl:flex-row xl:gap-3 xl:items-center'><Image className='w-12' src={second} /><p className='text-text-gray text-4xl text-center xl:text-[18px]'>How to write smart contracts on NEAR</p></div>
-            <div className='flex flex-col items-center gap-2 xl:flex xl:flex-row xl:gap-3 xl:items-center'><Image className='w-12' src={third} /><p className='text-text-gray text-4xl text-center xl:text-[18px] module leading-[50px]'>How to build dapps on the NEAR blockchain</p></div>
+            <div className='flex flex-col  items-center gap-2 xl:flex xl:flex-row xl:gap-3 '><Image className='w-12' src={first} alt="icone"/><p className='text-text-gray text-4xl text-center xl:text-[18px] module'>Essential NEAR concepts</p></div>
+            <div className='flex flex-col items-center gap-2 xl:flex xl:flex-row xl:gap-3 xl:items-center'><Image className='w-12' src={second} alt="icone" /><p className='text-text-gray text-4xl text-center xl:text-[18px]'>How to write smart contracts on NEAR</p></div>
+            <div className='flex flex-col items-center gap-2 xl:flex xl:flex-row xl:gap-3 xl:items-center'><Image className='w-12' src={third} alt="icone"/><p className='text-text-gray text-4xl text-center xl:text-[18px] module leading-[50px]'>How to build dapps on the NEAR blockchain</p></div>
            
         </div>
         

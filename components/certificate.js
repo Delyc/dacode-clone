@@ -8,7 +8,7 @@ function Certificate(){
             <h3 className="text-black-primary font-medium text-center ">Claim NEAR certificate</h3>
             <p className="text-text-gray mt-5 leading-[30px] text-4xl xl:text-[22px] xl:w-1/2 text-center">Upon course completion, receive the NEAR dev 101
 certificate as an NFT on your NEAR wallet.</p>
-<div className="w-full xl:w-3/5 mt-32 xl:mt-10"> <Image className="" src={certificate} /></div>
+<div className="w-full xl:w-3/5 mt-32 xl:mt-10"> <Image className="" src={certificate} alt="certificate"/></div>
        
         </section>
         </>

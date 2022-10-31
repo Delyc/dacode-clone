@@ -9,13 +9,13 @@ function Header() {
       <nav className="hidden xl:flex xl:justify-between xl:py-10 xl:items-center ">
         <div className="xl:grid xl:grid-cols-2 xl:divide-x ">
           <div className=" xl:flex xl:gap-3 xl:items-center ">
-            <Image src={circle} />
+            <Image src={circle} alt="logo"/>
             <h3 className="xl:font-bold xl:text-2xl">Dacade</h3>
           </div>
 
           <div className="xl:flex xl:justify-center xl:px-4 ">
             {" "}
-            <Image src={logo} className="w-32 h-12" />
+            <Image src={logo}  alt="logo" className="w-32 h-12" />
           </div>
         </div>
         <div className="xl:flex xl:items-center xl:gap-10">
@@ -60,7 +60,7 @@ function Header() {
             </svg>
           </div>
           <div className="px-3 w-20">
-            <Image className="w-full " src={logomob} />
+            <Image className="w-full " src={logomob} alt="logo"/>
           </div>
         </div>
 
