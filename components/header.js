@@ -2,19 +2,20 @@ import logo from "../public/images/logo.png";
 import logomob from "../public/images/logomob.png";
 import circle from "../public/images/circle.png";
 import Link from "next/link";
+import Image from 'next/image'
 function Header() {
   return (
     <>
       <nav className="hidden xl:flex xl:justify-between xl:py-10 xl:items-center ">
         <div className="xl:grid xl:grid-cols-2 xl:divide-x ">
           <div className=" xl:flex xl:gap-3 xl:items-center ">
-            <img src={circle.src} />
+            <Image src={circle} />
             <h3 className="xl:font-bold xl:text-2xl">Dacade</h3>
           </div>
 
           <div className="xl:flex xl:justify-center xl:px-4 ">
             {" "}
-            <img src={logo.src} className="w-32 h-12" />
+            <Image src={logo} className="w-32 h-12" />
           </div>
         </div>
         <div className="xl:flex xl:items-center xl:gap-10">
@@ -32,11 +33,11 @@ function Header() {
         <div className="  gap-2 grid grid-cols-2 divide-x  ">
           <div className="w-12">
             <svg
-              className="w-full "
+              className="w-full lg:w-[39px] "
               viewBox="0 0 39 39"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              class="lg:w-[39px] w-[30px]"
+              
             >
               <path
                 fill-rule="evenodd"
@@ -59,7 +60,7 @@ function Header() {
             </svg>
           </div>
           <div className="px-3 w-20">
-            <img className="w-full " src={logomob.src} />
+            <Image className="w-full " src={logomob} />
           </div>
         </div>
 

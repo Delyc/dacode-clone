@@ -1,5 +1,6 @@
 import Link from 'next/link'
-
+import Image from 'next/image'
+import lightn from '../public/images/lightn.png'
 function OpenWallet(){
     return (
         <>
@@ -19,7 +20,7 @@ as well as starting this course.</p>
             </div>
 
             <div className='flex w-full justify-center xl:justify-end'>
-                <img className="w-5/6 xl:w-5/6 h-5/6" src="https://dacade-nearbalkans.netlify.app/_ipx/w_640,q_75/%2F_next%2Fstatic%2Fmedia%2Fnear.3a79378e.png?url=%2F_next%2Fstatic%2Fmedia%2Fnear.3a79378e.png&w=640&q=75" />
+                <Image className="w-5/6 xl:w-5/6 h-5/6" src={lightn} />
             </div>
           </div>
         </section>

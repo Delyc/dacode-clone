@@ -13,7 +13,7 @@ function Footer() {
         <div className="hidden xl:grid grid-cols-2 divide-x">
           <div className=" xl:flex xl:justify-center   ">
             {" "}
-            <img src={logo.src} />
+            <Image src={logo} />
           </div>
           <div className="flex gap-6 items-center justify-center pl-4">
             <svg
