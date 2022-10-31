@@ -1,0 +1,59 @@
+@import url("http://fonts.cdnfonts.com/css/graphik%22");
+@import url("http://fonts.cdnfonts.com/css/an-apple%22");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: "Graphik", sans-serif;
+}
+
+.footer__icon{
+  background-color: red;
+  width: 20vw;
+  height: 20vh;
+}
+
+/* .home{
+ background: rgba(59,130,246,.5)
+} */
+
+.test{
+  background: linear-gradient(#9092fb,#86b5ef,#7bdde2);
+}
+
+@layer base {
+  .module,
+  .certificate {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+          "Segoe UI Symbol";
+  }
+  h1 {
+    @apply text-[72px] leading-[72px];
+  }
+  h3 {
+    @apply text-[48px] ;
+  }
+  h4 {
+    @apply text-[36px] ;
+  }
+
+  p{
+    @apply text-[18px]
+  }
+  /* h2 {
+    @apply text-[36px] leading-[48px] ;
+  }
+  /* h3{
+      @apply text-[24px] leading-[44px]
+  } */
+
+ 
+  
+
+
+
+}
