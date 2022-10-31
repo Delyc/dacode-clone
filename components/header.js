@@ -7,7 +7,7 @@ import Image from 'next/image'
 function Header() {
   return (
     <>
-      <nav className="hidden xl:flex xl:justify-between xl:py-10 xl:items-center ">
+      <nav className="hidden fixed bg-white min-w-[82%] xl:flex xl:justify-between xl:py-10 xl:items-center z-50 ">
         <div className="xl:grid xl:grid-cols-2 xl:divide-x ">
           <div className=" xl:flex xl:gap-3 xl:items-center ">
             <Image src={circle} alt="company logo"/>
@@ -20,17 +20,17 @@ function Header() {
           </div>
         </div>
         <div className="xl:flex xl:items-center xl:gap-10">
-          <Link href="#" className="xl:text-xl">
+          <Link href="courses" className="xl:text-xl">
             Start The Course
           </Link>
           <button className="xl:bg-black-primary xl:text-white xl:font-medium xl:py-3 xl:px-5 xl:rounded-full xl:text-xl">
             {" "}
-            <Link href="#">Create wallet</Link>{" "}
+            <Link href="wallet">Create wallet</Link>{" "}
           </button>
         </div>
       </nav>
 
-      <nav className="xl:hidden flex justify-between items-center  w-full  px-10 py-10">
+      <nav className="xl:hidden fixed bg-white flex justify-between items-center  w-full  px-10 py-10">
         <div className="  gap-2 grid grid-cols-2 divide-x  ">
           <div className="w-12">
             <svg
